@@ -1,3 +1,53 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
+
+.box{
+    margin-top: 20vh;
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    /* width: 300px; */
+}
+#InputValue{
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0.5px solid grey;
+    box-shadow: 10px 10px 50px solid rgb(195, 10, 10);
+    font-size: 18px;
+}
+.btns{
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+li{
+    list-style-type: decimal;
+    margin-top: 10px;
+    font-size: large;
+}
+#add{
+    padding: 10px 40px;
+    background-color: rgb(206, 137, 34);
+    margin: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px solid black;
+    width: 130px;
+}
+#remove{
+    padding: 10px 40px;
+    background-color: rgb(123, 0, 255);
+    margin: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px solid black;
+}
